@@ -1,0 +1,57 @@
+{
+  "name": "",
+  "isOrdered": true,
+  "folders": {
+    "build": {
+      "name": "build",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "dist": {
+      "name": "dist",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "lib": {
+      "name": "lib",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "logs": {
+      "name": "logs",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "nbproject": {
+      "name": "nbproject",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "portable": {
+      "name": "portable",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "src": {
+      "name": "src",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "test": {
+      "name": "test",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    }
+  },
+  "files": {
+    "readme": 0
+  }
+}
