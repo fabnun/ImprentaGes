@@ -26,43 +26,43 @@ Descargar y ejecutar el instalador de postgreSQL para Windows desde [<u><span cl
 
 3.Seleccionar PostgreSQL Server, seleccionar pgAdmin4, Command Line Tools y presionar Siguiente.
 
-![img1](assets/3.png)
+![img3](assets/3.png)
 
 ---
 
 4.Seleccionar la carpeta donde se guardarán los datos y presionar siguiente.
  
-![img1](assets/4.png)
+![img4](assets/4.png)
 
 ---
 
 5.Ingresar la contraseña del superusuario y presionar siguiente.
 
-![img1](assets/5.png)
+![img5](assets/5.png)
 
 ---
 
 6.Ingresar el puerto desde donde se accede a la base de datos y presionar Siguiente.
  
-![img1](assets/6.png)
+![img6](assets/6.png)
 
 ---
 
 7.Seleccionar la configuración regional por defecto y presionar Siguiente.
 
-![img1](assets/7.png)
+![img7](assets/7.png)
 
 ---
 
 8.Verificar los parámetros de instalación y presionar Siguiente.
 
-![img1](assets/8.png)
+![img8](assets/8.png)
 
 ---
 
 9.Presionar Siguiente para instalar.
 
-![img1](assets/9.png)
+![img9](assets/9.png)
 
 ---
  
@@ -80,31 +80,31 @@ pgAdmin es el cliente por defecto de PostgreSql para acceder a los datos.
 
 Buscar y ejecutar la aplicación pgAdmin.
 
-![img1](assets/10.png) 
+![img10](assets/10.png) 
 
 ---
 
 Nos pedirá configurar una clave(password) para acceder de forma segura a pgAdmin, ingrese la clave y presione OK.
 
-![img1](assets/11.png)
+![img11](assets/11.png)
 
 ---
 
 Presionar en “Add New Server” para registrar un nuevo servidor de base de datos y seleccionar un nombre para dicho servidor.
 
-![img1](assets/12.png)
+![img12](assets/12.png)
 
 ---
 
 Cambiar a la pestaña “connection”, ingresar la ip 127.0.0.1 en el “Host Name/Address”, ingresar la clave que configuro en (5) y presione Save.
 
-![img1](assets/13.png)
+![img13](assets/13.png)
 
 ---
 
 En databases se debe crear la base de datos <b>**impges**</b>. Después mediante esta aplicación se puede hacer respaldo y restauración de la base de datos.
 
-![img1](assets/14.png) 
+![img14](assets/14.png) 
 
 ---
  
@@ -122,13 +122,13 @@ Cuando ingrese la primera vez deberá realizar la configuración inicial.
 
 Si la base de datos esta en otro equipo debe indicar la ip de ese equipo en **Servidor**, en **Clave** debe ingresar la que configuro en (5) y en **Caja** debe indicar caja1 inicialmente.
 
-![img1](assets/15.png)
+![img15](assets/15.png)
 
 ---
 
 Luego deberá autenticarse. Inicialmente puede usar la cuenta de administración que tiene usuario admin y clave vacía.
 
-![img1](assets/16.png)
+![img16](assets/16.png)
 
 --
 
@@ -137,7 +137,7 @@ A continuación se muestran las ventanas de la aplicación y se explican los com
  
 ##### **VENTANA PRINCIPAL**
 
-![img1](assets/17.png)
+![img17](assets/17.png)
 
 1. Gestión de ordenes de trabajo (OT), boletas y facturas.
 2. Gestión de la caja.
@@ -154,7 +154,7 @@ A continuación se muestran las ventanas de la aplicación y se explican los com
  
 ##### **PANTALLA DE CONFIGURACIÓN**
 
-![img1](assets/18.png)
+![img18](assets/18.png)
 
 1. Selección del tipo de documento.
 2. Edición del formato de impresión del documento.
@@ -190,7 +190,7 @@ A continuación se muestran las ventanas de la aplicación y se explican los com
  
 ##### **CONFIGURACIÓN DE FORMATOS DE IMPRESIÓN**
 
-![img1](assets/19.png)
+![img19](assets/19.png)
 
 1. Cantidad de caracteres de ancho del documento a imprimir.
 2. Cantidad de caracteres de alto del documento a imprimir.
@@ -206,7 +206,7 @@ A continuación se muestran las ventanas de la aplicación y se explican los com
  
 ##### **GESTIÓN DE PRODUCTOS Y PRECIOS**
 
-![img1](assets/20.png)
+![img20](assets/20.png)
 
 1. Guardar modificaciones.
 2. Agregar un nuevo producto.
@@ -222,7 +222,7 @@ A continuación se muestran las ventanas de la aplicación y se explican los com
  
 ##### **GESTIÓN DE CAJAS**
 
-![img1](assets/21.png)
+![img21](assets/21.png)
 
 1. Nombre del usuario autenticado que realizará la operación en la caja.
 2. Nombre de la caja.
@@ -244,7 +244,7 @@ A continuación se muestran las ventanas de la aplicación y se explican los com
  
 ##### **EDICIÓN DE OT, BOLETAS y FACTURAS**
 
-![img1](assets/22.png)
+![img22](assets/22.png)
 
 1. Retroceder hacia la orden de trabajo anterior.
 2. Numero de orden de trabajo.
@@ -271,7 +271,7 @@ A continuación se muestran las ventanas de la aplicación y se explican los com
  
 ##### VENTANA DE PAGOS
 
-![img1](assets/23.png)
+![img23](assets/23.png)
 
 1. Cantidad total que debe pagar.
 2. Saldo por pagar.
@@ -289,6 +289,6 @@ A continuación se muestran las ventanas de la aplicación y se explican los com
  
 ##### GENERACION DE FACTURAS Y BOLETAS A PARTIR DE LA OT
 
-![img1](assets/24.png)
+![img24](assets/24.png)
 
 Cuando completa el pago se puede generar e imprimir la boleta o factura.
