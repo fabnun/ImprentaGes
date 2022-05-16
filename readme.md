@@ -30,7 +30,7 @@ Descargar y ejecutar el instalador de postgreSQL para Windows desde [<u><span cl
 
 ---
 
-4.Seleccionar la carpeta donde se guardaran los datos y presionar siguiente.
+4.Seleccionar la carpeta donde se guardarán los datos y presionar siguiente.
  
 ![img1](assets/4.png)
 
@@ -48,19 +48,19 @@ Descargar y ejecutar el instalador de postgreSQL para Windows desde [<u><span cl
 
 ---
 
-7.Seleccionar la configuración regional por defecto y presionar siguiente.
+7.Seleccionar la configuración regional por defecto y presionar Siguiente.
 
 ![img1](assets/7.png)
 
 ---
 
-8.Verificar los parámetros de instalación y presionar siguiente.
+8.Verificar los parámetros de instalación y presionar Siguiente.
 
 ![img1](assets/8.png)
 
 ---
 
-9.Presionar siguiente para instalar.
+9.Presionar Siguiente para instalar.
 
 ![img1](assets/9.png)
 
@@ -68,17 +68,17 @@ Descargar y ejecutar el instalador de postgreSQL para Windows desde [<u><span cl
  
 ## **HABILITAR ACCESO A IP LOCALES**
 
-En la carpeta donde se almacenan los datos (4). debe editar el archivo pg\_hba.conf para indicar desde cuales ip locales pueden acceder a la base de datos, por defecto solo se tiene acceso desde la misma maquina osea 127.0.0.1.
+En la carpeta donde se almacenan los datos (4) debe editar el archivo pg\_hba.conf para indicar desde cuales ip locales pueden acceder a la base de datos, por defecto solo se tiene acceso desde la misma maquina, osea 127.0.0.1.
 
 ---
 
 ## **PRUEBA DE ACCESO A LA BASE DE DATOS**
 
-pgAdmin es el cliente por defecto por defecto de PostgreSql para acceder a los datos.
+pgAdmin es el cliente por defecto de PostgreSql para acceder a los datos.
 
 ---
 
-Buscar la aplicación y ejecutar pgAdmin.
+Buscar y ejecutar la aplicación pgAdmin.
 
 ![img1](assets/10.png) 
 
@@ -96,13 +96,13 @@ Presionar en “Add New Server” para registrar un nuevo servidor de base de da
 
 ---
 
-Cambiar a la pestaña “connection”, ingresar la ip 127.0.0.1 en el “Host Name/Address”, ingresar la clave que configuro en 5) y presione Save.
+Cambiar a la pestaña “connection”, ingresar la ip 127.0.0.1 en el “Host Name/Address”, ingresar la clave que configuro en (5) y presione Save.
 
 ![img1](assets/13.png)
 
 ---
 
-Desde esta aplicación en databases se debe crear la base de datos <b>**impges**</b>. Después mediante esta misma aplicación se puede hacer respaldo y restauración de la base de datos.
+En databases se debe crear la base de datos <b>**impges**</b>. Después mediante esta aplicación se puede hacer respaldo y restauración de la base de datos.
 
 ![img1](assets/14.png) 
 
@@ -110,9 +110,9 @@ Desde esta aplicación en databases se debe crear la base de datos <b>**impges**
  
 ## **EJECUTAR LA APLICACIÓN**
 
-Para ejecutar la aplicación necesita tener instalado Java 1.8, el ejecutable para Windows esta en ImprentaGes/portables/ImprentaGes.exe
+Requiere tener instalado Java 1.8 y el ejecutable se encuentra en ImprentaGes/portables/ImprentaGes.exe
 
-También se puede ejecutar la aplicación directamente netbeans, pero tiene que tener los 3 proyectos abiertos: ImprentaGes, KreadiJDBC y KreadiSwing.
+También se puede ejecutar la aplicación directamente desde netbeans, pero tiene que tener los 3 proyectos abiertos: ImprentaGes, KreadiJDBC y KreadiSwing.
 
 ---
 
@@ -133,7 +133,7 @@ Luego deberá autenticarse. Inicialmente puede usar la cuenta de administración
 --
 
 
-A continuación se muestran las ventanas de aplicación y se explican los componentes de estas ventanas.
+A continuación se muestran las ventanas de la aplicación y se explican los componentes de estas ventanas.
  
 ##### **VENTANA PRINCIPAL**
 
@@ -145,7 +145,7 @@ A continuación se muestran las ventanas de aplicación y se explican los compon
 4. Configuración general.
 5. Información de la hora de acceso, el usuario y la caja.
 6. Gestión del acceso.
-7. Búsqueda por fechas, nombre, rut, numero de OT, numero de boleta, numero de factura. También permite realizar auditoria de movimientos entre fechas y auditoria con búsqueda de texto. También permite visualizar un resumen diario de los movimientos por cada caja.
+7. Búsqueda por fechas, nombre, rut, número de OT, número de boleta y número de factura. También permite realizar auditoría de movimientos entre fechas y auditoría con búsqueda de texto. También permite visualizar un resumen diario de los movimientos por cada caja.
 8. Filtro de documentos terminados, pendientes o anulados.
 9. Botón para ejecutar la búsqueda.
 10. Resultados de la búsqueda que pueden ser exportados a Excel.
@@ -224,7 +224,7 @@ A continuación se muestran las ventanas de aplicación y se explican los compon
 
 ![img1](assets/21.png)
 
-1. Nombre del usuario autenticado que realizara la operación en la caja.
+1. Nombre del usuario autenticado que realizará la operación en la caja.
 2. Nombre de la caja.
 3. Fecha actual.
 4. Turno diario de la caja (un turno ocurre entre la apertura y cierre de una caja).
@@ -277,9 +277,9 @@ A continuación se muestran las ventanas de aplicación y se explican los compon
 2. Saldo por pagar.
 3. Cantidad ingresada a caja.
 4. Cantidad que va a pagar.
-5. Calculo del vuelto.
+5. Cálculo del vuelto.
 6. Tipo de pago: Efectivo, cheque o transferencia.
-7. Numero de documento.
+7. Número de documento.
 8. Banco.
 9. Botón para ingresar un pago.
 10. Detalle de los pagos realizados.
@@ -292,9 +292,3 @@ A continuación se muestran las ventanas de aplicación y se explican los compon
 ![img1](assets/24.png)
 
 Cuando completa el pago se puede generar e imprimir la boleta o factura.
-
----
-
-TODO LIST
-
-SINCRONIZAR HORA Y FECHA CON EQUIPO SERVIDOR
