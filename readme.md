@@ -3,8 +3,6 @@
 <b>**ImprentaGes**&nbsp;</b>es una aplicación para Windows que permite gestionar ordenes de trabajo, boletas, facturas, productos, cajas, usuarios, permisos de acceso, etc.
 
 Fue pensada para ser usada en imprentas, pero eso no impide que se pueda usar en otro tipo de negocio (Nota: la aplicación no implementa facturación electrónica).
-
-Se desarrollo usando Java 1.8 y PostgreSql. Y se distribuye libremente como 3 proyectos de netbeans 8.2: ImprentaGes (La aplicación), KreadiJDBC (Utilidades para acceder a bases de datos) y KreadiSwing (Utilidades para las interfaces Java Swing).
  
 ## **INSTALACIÓN DE BASE DE DATOS POSTGRESQL**
 
